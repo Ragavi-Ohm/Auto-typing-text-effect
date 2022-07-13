@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Auto-type text</title>
+        <link href="auto-type.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header container-fluid">
+            
+            <video autoplay loop muted plays-inline class="video1">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+            <nav>
+                <h1 class="name">Ragavi.</h1>
+                <ul>
+                 <li><a href="">HOME</a></li>
+                 <li><a href="">ABOUT</a></li>
+                 <li><a href="">TECH SKILLS</a></li>
+                 <li><a href="">INTERESTS</a></li>
+                 <li><a href="">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="text-box">
+                <h1>I'm <span class="auto-input" style="color:gold"></span></h1>
+                <p>I am an undergraduate pursuing computer Science at VIT Chennai</p>
+                <a href="">Download CV</a>
+            </div>
+            
+            
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script>
+            
+        
+            var typed=new Typed(".auto-input",{
+            strings: ["Ragavi","a Web Developer","a nature lover","a passionate coder"],
+            typeSpeed:100,
+            backSpeed:100,
+           
+            loop: true
+            });
+
+        </script>
+    </body>
+</html>
